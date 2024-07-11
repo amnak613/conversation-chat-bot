@@ -6,9 +6,13 @@ const port = 8000;
 
 
 
-app.get('/', (req, res) => {
+app.get('/getTextmessages', (req, res) => {
 res.status(200).send("hello world");
 })
+
+app.get('/', (req, res) => {
+    res.status(200).send("Nothing to send!");
+    })
 
 // set up server
 app.listen(port,  () => {
