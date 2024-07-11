@@ -26,3 +26,5 @@ userinformation = get_user_information()
 # dycrypt the password and pass it into the form 
 # grab text and store  [{{user1: {time, text, }},}] -> format the data and pass it in to gpt model only up to point where user has not responded
 # test
+
+#TODO(ak): make a diagram for db schema and create a project chart
